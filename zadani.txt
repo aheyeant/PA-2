@@ -1,0 +1,19 @@
+Naprogramujte jednoduchou 2D sandbox hru.
+
+Hra musí splňovat následující funkcionality
+
+Implementujte hráče (postava, loď, ...) a jeho stav (energie, životy, brnění, skore, ...)
+Vytvořte (soubojový) model zranění - alespoň dvě příčiny (pád z výšky, soubor s nepřítelem, pobyt v lávě, ...)
+Vytvořte jednoduchý model prostředí (gravitace, přelévání vody (lávy), růst stromů, ...)
+Naimplementujte načítání (generátoru) mapy ze souboru a umožněte ukládat aktuální stav hry.
+Kde lze využít polymorfismus? (doporučené)
+
+Postavy: hráč, zvířata, přítel (obchodník), nepřítel (různé druhy)
+Efekty akcí: pád, úder, kontakt s lávou
+Prostředí: vzduch, voda, hlína, uhlí, kov, láva, žebřík,...
+Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
+Ukázky:
+
+http://www.miniclip.com/games/motherload/en/
+https://en.wikipedia.org/wiki/Terraria
+2D Minecraft
